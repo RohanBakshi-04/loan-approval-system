@@ -1,0 +1,9 @@
+Application_ID,Applicant_Name,Age,Dependents,Housing_Status,Annual_Income,Income_Tier,Employment_Status,Credit_Score,FICO_Bracket,Monthly_Debt,Requested_Loan_Amount,Term_Months,Loan_Purpose,Calculated_DTI_Ratio,DTI_Tier,Approval_Status,Risk_Score_Pct,Risk_Tier,Created_Timestamp
+1,alice,28,0,Own House,55000.0,$35k-$75k,Full-Time Salaried,650,Fair (580-660),300.0,15000.0,36,Debt Consolidation,15.64,<30% Low,Approved,33.82,Medium Risk (20-50%),2026-07-02 15:11:50
+2,alice,28,0,Own House,55000.0,$35k-$75k,Full-Time Salaried,650,Fair (580-660),300.0,15000.0,36,Debt Consolidation,15.64,<30% Low,Approved,33.82,Medium Risk (20-50%),2026-07-02 15:25:23
+3,alice,28,0,Own House,55000.0,$35k-$75k,Full-Time Salaried,650,Fair (580-660),300.0,15000.0,36,Debt Consolidation,15.64,<30% Low,Approved,33.82,Medium Risk (20-50%),2026-07-02 15:29:54
+4,alice smith,28,0,Own House,55000.0,$35k-$75k,Full-Time Salaried,650,Fair (580-660),300.0,15000.0,36,Debt Consolidation,15.64,<30% Low,Approved,0.07,Low Risk (<20%),2026-07-10 12:05:52
+5,alice doker,28,0,Own House,55000.0,$35k-$75k,Full-Time Salaried,650,Fair (580-660),300.0,15000.0,36,Debt Consolidation,15.64,<30% Low,Approved,0.07,Low Risk (<20%),2026-07-10 12:13:41
+6,ravi roy,28,0,Own House,55000.0,$35k-$75k,Full-Time Salaried,650,Fair (580-660),300.0,15000.0,36,Debt Consolidation,15.64,<30% Low,Approved,0.07,Low Risk (<20%),2026-07-10 12:17:07
+7,Test Approved Applicant,35,1,Own House,120000.0,$75k-$125k,Full-Time Salaried,780,Excellent (740+),400.0,20000.0,36,Home Improvement,9.56,<30% Low,Approved,0.03,Low Risk (<20%),2026-07-30 17:17:37
+8,Test Rejected Applicant,22,0,Rented Apartment,20000.0,<$35k,Unemployed / Student,450,Poor (<580),900.0,50000.0,12,Personal Expense,304.0,>50% High Risk,Rejected,99.87,High Risk (>=50%),2026-07-30 17:17:37
