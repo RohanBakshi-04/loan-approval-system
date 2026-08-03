@@ -227,7 +227,7 @@ elif page == "📈 BI & Portfolio Analytics":
             st.subheader("Loan Portfolio Distribution by Purpose")
             fig_pie = px.pie(
                 df_bi, names="purpose", values="loan_amount",
-                color_discrete_sequence=px.colors.sequential.Cyan
+                color_discrete_sequence=["#38BDF8", "#34D399", "#F59E0B", "#EC4899", "#8B5CF6", "#6366F1"]
             )
             fig_pie.update_layout(paper_bgcolor="rgba(0,0,0,0)", font_color="#F8FAFC")
             st.plotly_chart(fig_pie, use_container_width=True)
